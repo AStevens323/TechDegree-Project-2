@@ -37,10 +37,7 @@ p {
     background-color: #DDDDDD;
 }
 
-.main-header p {
-padding: 5%  0 12%;
-
-}
+.main-header p {padding: 5%  0 12%;}
 
 .profile-photo {
     width: 90%;
@@ -129,3 +126,66 @@ padding: 5%  0 12%;
     left: 5px;
 }
 
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 768px) {
+
+    .main-header,
+    .content-container {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10%;
+
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .main-nav a {
+        background-color: transparent;
+
+    }
+
+    .profile-photo {
+        float: right;
+        width: 40%;
+        padding: 3%;
+    }
+
+
+    .main-header p {
+        float: left;
+        width: 60%;
+        font-size: large;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .marketing-container,
+      .travel-container,
+      .photo-container,
+      .calculator-container{
+        float: left;
+        width: 50%;
+        padding: 1%;
+      }
+
+      .search-container,
+      .spots-container,
+      .calculator-container {
+        float: right;
+        width: 50%;
+        padding: 1%;
+      }
+
+}
