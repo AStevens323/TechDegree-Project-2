@@ -15,6 +15,21 @@ h1 {
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+
+}
+
+ul {
+    padding-left: 0;
+
+}
+
+p {
+    line-height: 1.5em;
+
+}
+
 /*LAYOUT STYLES*/
 
 .main-header {
@@ -24,12 +39,26 @@ h1 {
 
 .main-header p {
 padding: 5%  0 12%;
-line-height: 1.5em;
 
 }
 
 .profile-photo {
     width: 90%;
+
+}
+
+.content-title {
+    text-align: center;
+  
+}
+
+.content-title h2 {
+    font-weight: bolder;
+
+}
+
+.content-container {
+    text-align: center;
 
 }
 
@@ -41,7 +70,6 @@ line-height: 1.5em;
    display: block;
    background-color: #F0F0F0;
    padding: 5%;
-   width: 80%;
    margin: 5%;
 }
 
