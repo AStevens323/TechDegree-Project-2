@@ -107,7 +107,7 @@ p {
 
 
 .bottom-container {
-    padding: 20% 3% 3% 3%;
+    padding: 5% 3% 3% 3%;
     background-color: #DDDDDD;
     position: relative;
 }
@@ -244,3 +244,129 @@ p {
     }
 
     }
+
+
+
+@media (min-width:1025px) {
+
+     
+    /*BASIC LAYOUT CONTAINERS*/
+
+    .main-header,
+    .content-container {
+        max-width: 1150px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 5%;
+    }
+ 
+    h1 {
+        float: left;
+        padding-left: 5%;
+    }
+    
+    
+    .profile-photo {
+        float: right;
+        width: 40%;
+        padding: 3%;
+    }
+
+
+    .main-header p {
+        float: left;
+        width: 60%;
+        font-size: large;
+    }
+    
+    /*Navigation*/
+    
+    .main-nav ul {
+     float: right;
+     padding-right: 5%;
+    }
+    
+    
+    .main-nav li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .main-nav a {
+        background-color: transparent;
+
+    }
+
+   
+
+    /*MAIN-BODY/FLOATS*/
+
+      .marketing-container,
+      .travel-container,
+      .photo-container,
+      .calculator-container{
+        width: 33%;
+        float: left;
+        padding: 1%;
+      }
+
+      .search-container,
+      .spots-container,
+      .calculator-container {
+        float: right;
+        width: 33%;
+        padding: 1%;
+      }
+    
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    
+      
+      
+      /*FOOTER-NAV  */
+
+      .footer-nav{
+        color: black;
+        list-style: none;
+        text-align: right;
+        width: 100%;
+     }
+
+    .footer-nav li {
+        display: inline-block;
+
+    }
+     
+    .footer-nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+     }
+    
+    .footer-nav {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+     }
+
+ 
+    .name-float {
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding-left: 2%;
+
+    }     
+
+    .nav-float {
+        display: none;
+    }
+
+
+}
+
