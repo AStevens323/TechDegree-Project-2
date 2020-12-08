@@ -67,11 +67,21 @@ padding: 5%  0 12%;
 
 }
 
-.contact-container {
-   text-align: center; 
+.calculator-container p {
+    padding-bottom: 25%;
 
 }
 
+.contact-container {
+   text-align: center; 
+   padding: 3% 3%;
+   background-color: #DDDDDD;
+}
+
+.contact-container h3 {
+    padding-bottom: 5%;
+
+}
 /*Navigation*/
 
 .main-nav a {
