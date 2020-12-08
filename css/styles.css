@@ -62,6 +62,16 @@ padding: 5%  0 12%;
 
 }
 
+.content-container p {
+    padding: 0 3% 3%;
+
+}
+
+.contact-container {
+   text-align: center; 
+
+}
+
 /*Navigation*/
 
 .main-nav a {
