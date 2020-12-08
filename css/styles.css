@@ -82,6 +82,8 @@ padding: 5%  0 12%;
     padding-bottom: 5%;
 
 }
+
+
 /*Navigation*/
 
 .main-nav a {
@@ -98,3 +100,32 @@ padding: 5%  0 12%;
    font-weight: bolder;
    text-transform: uppercase;
 }
+
+
+/*POSITIONING ELEMENTS*/
+
+
+.bottom-container {
+    padding: 20% 3% 3% 3%;
+    background-color: #DDDDDD;
+    position: relative;
+}
+
+.name-float,
+.nav-float {
+    position: absolute;
+    display: inline-block;
+
+}
+
+.nav-float {
+    bottom: 0;
+    left: 220px;
+
+}
+
+.name-float {
+    bottom: 0;
+    left: 5px;
+}
+
