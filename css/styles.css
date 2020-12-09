@@ -121,7 +121,7 @@ p {
 
 .nav-float {
     bottom: 0;
-    left: 220px;
+    right: 0;
 
 }
 
@@ -247,7 +247,7 @@ p {
 
 
 
-@media (min-width:1025px) {
+@media (min-width:1024px) {
 
      
     /*BASIC LAYOUT CONTAINERS*/
